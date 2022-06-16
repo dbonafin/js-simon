@@ -80,7 +80,7 @@ alert(startMessage);
 
 // After 30 seconds ask the user the numbers of the first message
 let userNumber;
-const gameTimer = setTimeout(promptNumber, 3000);
+const gameTimer = setTimeout(promptNumber, 30000);
 
 // Create the array that will get all the winning numbers for the final check
 const winningNumbersArray = [];
